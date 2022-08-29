@@ -4,11 +4,9 @@ import socket
 import re
 import time
 
-mac_list = """ v2473- 4c:5e:0c:c2:2e:b8   -   xe-0/0/30.2473         0         0
-    v2473- 6c:b2:ae:22:21:54     -   et-0/0/48.2473         0         0
-    v2473-  6c:b2:ae:bb:d1:20    -   et-0/0/48.2473         0         0
-
-"""
+mac_list = """4c:5e:0c:c2:2e:b8   -   xe-0/0/30.2000
+    6c:b2:ae:22:21:54     -   et-0/0/48.2000
+    6c:b2:ae:bb:d1:20    -   et-0/0/48.2000"""
 mac = "64d1-54d0-a9b5"
 ip = '8.8.8.8'
 url = 'https://www.youtube.com/'
