@@ -90,7 +90,6 @@ def clear_board():
    text.delete('1.0', END)
 
 
-
 def ins(info):
    clear_board()
    text.insert(INSERT, info)
@@ -104,9 +103,6 @@ def gim():
 def gih():
     info = get_ip_by_hostname(e_url.get())
     ins(info)
-
-
-
 
 
 root = Tk()
